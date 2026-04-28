@@ -1,178 +1,23 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ahmad Alam Ansari — Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
-   <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <div class="left"></div>
+            <div class="right"></div>
+        </nav>
+    </header>
 
-  <!-- ── Navigation ── -->
-  <nav id="navbar">
-    <span class="nav-logo">AAA<span class="nav-logo-muted">.dev</span></span>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <div class="nav-links" id="nav-links">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
 
-  <!-- ── Hero ── -->
-  <section id="hero">
-    <div class="hero-grid" aria-hidden="true"></div>
-    <div class="hero-glow" aria-hidden="true"></div>
-    <div class="fade-in">
-      <p class="hero-tag">MCA Student · Web Developer</p>
-    </div>
-    <div class="fade-in">
-      <h1>Ahmad<br>Alam<br><span class="accent">Ansari</span><span class="cursor-blink" aria-hidden="true"></span></h1>
-    </div>
-    <div class="fade-in">
-      <p class="hero-sub">Pursuing MCA with a passion for web development — building responsive, user-friendly applications that turn ideas into real-world solutions.</p>
-    </div>
-    <div class="fade-in hero-ctas">
-      <a href="#projects" class="btn-primary">View Projects</a>
-      <a href="#contact" class="btn-ghost">Get in Touch</a>
-    </div>
-    <div class="scroll-hint" aria-hidden="true">
-      <span class="scroll-line"></span>
-      <span>Scroll to explore</span>
-    </div>
-  </section>
 
-  <!-- ── About ── -->
-  <section id="about">
-    <p class="section-label">01 // About</p>
-    <h2>Who I am</h2>
-    <div class="about-grid">
-      <div class="about-text">
-        <span class="about-highlight">Master of Computer Applications (MCA)</span>
-        <p>I'm Ahmad Alam Ansari, a web developer with a keen interest in crafting responsive and user-friendly web applications. I specialize in HTML, CSS, JavaScript, and modern frameworks.</p>
-        <p>I enjoy turning ideas into real-world applications — bridging the gap between a concept and a fully functional, polished product.</p>
-        <p>I'm continuously improving my technical and problem-solving skills, driven by curiosity and a love for clean, purposeful code.</p>
-      </div>
-      <div class="about-stats">
-        <div class="stat-box"><div class="stat-num">MCA</div><div class="stat-label">Pursuing</div></div>
-        <div class="stat-box"><div class="stat-num">Web</div><div class="stat-label">Specialization</div></div>
-        <div class="stat-box"><div class="stat-num">2+</div><div class="stat-label">Projects Built</div></div>
-        <div class="stat-box"><div class="stat-num">∞</div><div class="stat-label">Ideas to Ship</div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Projects ── -->
-  <section id="projects">
-    <p class="section-label">02 // Projects</p>
-    <h2>Selected work</h2>
-    <div class="projects-grid">
-
-      <div class="project-card">
-        <span class="project-arrow" aria-hidden="true">↗</span>
-        <p class="project-number">01</p>
-        <p class="project-tag">Full Stack · Travel</p>
-        <h3 class="project-title">Travel Agency Website</h3>
-        <p class="project-desc">A responsive and dynamic website developed to showcase travel packages and enable users to explore and book trips online. Features an intuitive browsing experience with a backend-powered booking flow.</p>
-        <div class="project-tech">
-          <span class="tech-chip highlight">HTML</span>
-          <span class="tech-chip highlight">CSS</span>
-          <span class="tech-chip highlight">JavaScript</span>
-          <span class="tech-chip">Python (Flask)</span>
-          <span class="tech-chip">SQLAlchemy</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <span class="project-arrow" aria-hidden="true">↗</span>
-        <p class="project-number">02</p>
-        <p class="project-tag">Full Stack · E-Commerce</p>
-        <h3 class="project-title">Grocery Management Website</h3>
-        <p class="project-desc">A functional website developed to manage grocery products and handle basic inventory operations. Supports product listing, stock tracking, and database-driven CRUD operations.</p>
-        <div class="project-tech">
-          <span class="tech-chip highlight">HTML</span>
-          <span class="tech-chip highlight">CSS</span>
-          <span class="tech-chip highlight">JavaScript</span>
-          <span class="tech-chip">Python (Django)</span>
-          <span class="tech-chip">MySQL / SQLite</span>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ── Skills ── -->
-  <section id="skills">
-    <p class="section-label">03 // Skills</p>
-    <h2>Tech stack</h2>
-    <div class="skills-grid">
-      <div class="skill-group">
-        <p class="skill-group-title">Frontend</p>
-        <ul class="skill-list">
-          <li>HTML5 / CSS3</li>
-          <li>JavaScript (ES6+)</li>
-          <li>React.js</li>
-          <li>Responsive Design</li>
-          <li>Tailwind CSS</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <p class="skill-group-title">Backend</p>
-        <ul class="skill-list">
-          <li>Python (Flask)</li>
-          <li>Python (Django)</li>
-          <li>REST APIs</li>
-          <li>SQLAlchemy ORM</li>
-          <li>MVC Architecture</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <p class="skill-group-title">Databases</p>
-        <ul class="skill-list">
-          <li>MySQL</li>
-          <li>SQLite</li>
-          <li>MongoDB</li>
-          <li>Firebase</li>
-        </ul>
-      </div>
-      <div class="skill-group">
-        <p class="skill-group-title">Tools & Others</p>
-        <ul class="skill-list">
-          <li>Git / GitHub</li>
-          <li>VS Code</li>
-          <li>Figma</li>
-          <li>Linux</li>
-          <li>Agile / Scrum</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Contact ── -->
-  <section id="contact">
-    <div class="contact-inner">
-      <p class="section-label contact-label">04 // Contact</p>
-      <h2>Let's build something</h2>
-      <p class="contact-tagline">Have a project in mind, a collaboration idea, or just want to connect? My inbox is always open — I'll get back to you soon.</p>
-      <a href="mailto:ahmadalam0110@gmail.com" class="btn-primary">ahmadalam0110@gmail.com</a>
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/ahmad-alam-ansari-276986248" target="_blank" rel="noopener" class="contact-link">⇒ LinkedIn</a>
-        <a href="https://github.com/" target="_blank" rel="noopener" class="contact-link">⇒ GitHub</a>
-        <a href="mailto:ahmadalam0110@gmail.com" class="contact-link">⇒ Email</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Footer ── -->
-  <footer>
-    <span>© 2026 Ahmad Alam Ansari</span>
-    <span>ahmadalam0110@gmail.com</span>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
+
 </html>
