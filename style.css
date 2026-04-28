@@ -4,6 +4,48 @@
 }
 
 body {
-    background-color: rgb(0, 0, 33);
+    background-color: rgb(0, 0, 0);
     color: white;
+    font-family: 'poppins', sans-serif;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(3, 82, 8);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    /*for removing the bullet points*/
+    margin: 0 20px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.firstsection div{
+    width: 30%;
+}
+
+.leftsection {
+    background-color: rgb(3, 82, 8);
+}
+    
+.rightsection {
+    background-color: rgb(3, 82, 8);
+}
+    
